@@ -1,3 +1,6 @@
+// Video for this file:
+// https://youtu.be/Lyt_7p6nzck
+
 interface Santa {
     readonly numberOfKidsToVisit: number;
     weight?: number;

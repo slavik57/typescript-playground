@@ -1,3 +1,6 @@
+// Video for this file:
+// https://youtu.be/tJQrhWfW6WI
+
 let isDog:boolean = true;
 let dogAge:number = 5;
 let dogName: string = 'Doggy';
