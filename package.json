@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    // Video for configuring build:
-    // https://youtu.be/_1WSJJiaXTY
     "build": "tsc"
   },
   "repository": {

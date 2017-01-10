@@ -1,3 +1,5 @@
+// Video for this file:
+// https://youtu.be/kRlCm1XT95w
 var Car = (function () {
     function Car(brandName) {
         this.brandName = brandName;

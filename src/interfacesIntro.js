@@ -1,3 +1,5 @@
+// Video for this file:
+// https://youtu.be/Lyt_7p6nzck
 var santa = {
     numberOfKidsToVisit: 987654654,
     giveGift: function (callback) {

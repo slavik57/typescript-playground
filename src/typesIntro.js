@@ -1,3 +1,5 @@
+// Video for this file:
+// https://youtu.be/tJQrhWfW6WI
 var isDog = true;
 var dogAge = 5;
 var dogName = 'Doggy';
