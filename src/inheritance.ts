@@ -1,3 +1,6 @@
+// The video for this file:
+// https://youtu.be/aK0_-TLkSvc
+
 interface IAnimal {
     readonly numberOfLegs: number;
     makeSound(): void;
