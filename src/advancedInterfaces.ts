@@ -1,3 +1,6 @@
+// The video for this file:
+// https://youtu.be/AN8zXNm10Cw
+
 interface ItemConstructor {
     new (id: string): IItem
 }
