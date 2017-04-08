@@ -1,7 +1,7 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "description": "The code for the 'Learn TypeScript' playlist on YouTube. Link inside the README",
+  "description": "The code for the Learn TypeScript playlist on YouTube. Link inside the README",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
