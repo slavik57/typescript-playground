@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The code for the Learn TypeScript playlist on YouTube. Link inside the README",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/slavik57/typescript-playground/issues"
   },
-  "homepage": "https://github.com/slavik57/typescript-playground#readme"
+  "homepage": "https://github.com/slavik57/typescript-playground#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.62",
+    "lodash": "^4.17.4"
+  }
 }
