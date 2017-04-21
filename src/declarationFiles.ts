@@ -1,3 +1,6 @@
+// Video for this file:
+// https://youtu.be/06ygIwV8CkI
+
 import * as _ from 'lodash';
 
 const arr1 = [1, 2, 3];

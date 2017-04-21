@@ -1,3 +1,5 @@
+// Video for this file:
+// https://youtu.be/06ygIwV8CkI
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = require("lodash");
