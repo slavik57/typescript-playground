@@ -1,6 +1,7 @@
 // The video for this file:
 // https://youtu.be/je1YPQNcwOQ
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var ItemsCache = (function () {
     function ItemsCache(itemConstructor) {
         this.itemConstructor = itemConstructor;
