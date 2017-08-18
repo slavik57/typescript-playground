@@ -2,27 +2,25 @@
 // https://youtu.be/IpP6xbkojy4
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var _ = require("lodash");
-var Cat = (function () {
-    function Cat(name, numberOfLives) {
+const _ = require("lodash");
+class Cat {
+    constructor(name, numberOfLives) {
         this.name = name;
         this.numberOfLives = numberOfLives;
     }
-    return Cat;
-}());
+}
 exports.Cat = Cat;
-var Dog = (function () {
-    function Dog(name, isBarkingOnNeighbors) {
+class Dog {
+    constructor(name, isBarkingOnNeighbors) {
         this.name = name;
         this.isBarkingOnNeighbors = isBarkingOnNeighbors;
     }
-    return Dog;
-}());
+}
 exports.Dog = Dog;
 function compose(obj1, obj2) {
     return _.assignIn({}, obj1, obj2);
 }
-var monster = compose(new Cat('Mitzy', 9), new Dog('Sparky', false));
+const monster = compose(new Cat('Mitzy', 9), new Dog('Sparky', false));
 monster.name = 'Sparky Mitzy';
 monster.numberOfLives = 100;
 monster.isBarkingOnNeighbors = true;

@@ -5,11 +5,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function getPropertyValue(obj, propertyName) {
     return obj[propertyName];
 }
-var cat = null;
-var catAge = getPropertyValue(cat, 'age');
-var catName = getPropertyValue(cat, 'name');
-var catSound = getPropertyValue(cat, 'sound');
+const cat = null;
+const catAge = getPropertyValue(cat, 'age');
+const catName = getPropertyValue(cat, 'name');
+const catSound = getPropertyValue(cat, 'sound');
 function getProperties(obj, names) {
-    return names.map(function (name) { return obj[name]; });
+    return names.map(name => obj[name]);
 }
-var catAgeAndName = getProperties(cat, ['age', 'name']);
+const catAgeAndName = getProperties(cat, ['age', 'name']);

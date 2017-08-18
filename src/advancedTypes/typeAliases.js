@@ -8,11 +8,11 @@ function toAge(ageSource) {
     }
     return ageSource();
 }
-var age = toAge(1);
+const age = toAge(1);
 ;
-var node1 = null;
+const node1 = null;
 node1.data.age;
 node1.next.data.age;
-var node2 = null;
+const node2 = null;
 node2.age;
 node2.next.age;

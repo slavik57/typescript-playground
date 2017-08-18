@@ -2,7 +2,7 @@
 // https://youtu.be/t_VGUAGgJWw
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var dogName = 'Spotty';
+let dogName = 'Spotty';
 function changeDogName(newName) {
     dogName = newName;
 }

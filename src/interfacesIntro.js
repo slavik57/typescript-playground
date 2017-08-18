@@ -1,13 +1,13 @@
 // Video for this file:
 // https://youtu.be/Lyt_7p6nzck
-var santa = {
+let santa = {
     numberOfKidsToVisit: 987654654,
-    giveGift: function (callback) {
+    giveGift: (callback) => {
         callback(true);
     },
-    fly: function () { }
+    fly: () => { }
 };
-var numberOfKidsToVisit = santa.numberOfKidsToVisit;
+let numberOfKidsToVisit = santa.numberOfKidsToVisit;
 santa.fly();
 function getNameAndAge2() {
     return {
@@ -15,7 +15,7 @@ function getNameAndAge2() {
         name: 'Slava'
     };
 }
-var tuple2 = getNameAndAge2();
-var someName = tuple2.name;
-var fatSanta;
+let tuple2 = getNameAndAge2();
+let someName = tuple2.name;
+let fatSanta;
 //fatSanta.eat(); 

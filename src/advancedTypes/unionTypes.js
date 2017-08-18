@@ -2,34 +2,31 @@
 // https://youtu.be/IpP6xbkojy4
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Cat = (function () {
-    function Cat(name, numberOfLives) {
+class Cat {
+    constructor(name, numberOfLives) {
         this.name = name;
         this.numberOfLives = numberOfLives;
     }
-    Cat.prototype.eat = function () {
-    };
-    return Cat;
-}());
+    eat() {
+    }
+}
 exports.Cat = Cat;
-var Dog = (function () {
-    function Dog(name, isBarkingOnNeighbors) {
+class Dog {
+    constructor(name, isBarkingOnNeighbors) {
         this.name = name;
         this.isBarkingOnNeighbors = isBarkingOnNeighbors;
     }
-    Dog.prototype.eat = function () {
-    };
-    return Dog;
-}());
+    eat() {
+    }
+}
 exports.Dog = Dog;
-var Person = (function () {
-    function Person(name, age) {
+class Person {
+    constructor(name, age) {
         this.name = name;
     }
-    Person.prototype.eat = function () {
-    };
-    return Person;
-}());
+    eat() {
+    }
+}
 exports.Person = Person;
 function rename(thing, newName) {
     thing.name = newName;

@@ -2,5 +2,5 @@
 // https://youtu.be/IpP6xbkojy4
 function on(eventName, callback) {
 }
-on('click', function () { });
-on('mouse-enter', function () { });
+on('click', () => { });
+on('mouse-enter', () => { });

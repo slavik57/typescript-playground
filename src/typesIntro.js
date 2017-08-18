@@ -1,12 +1,12 @@
 // Video for this file:
 // https://youtu.be/tJQrhWfW6WI
-var isDog = true;
-var dogAge = 5;
-var dogName = 'Doggy';
-var dogNames = ['Rulf', 'Buch'];
-var dogAges = [4, 6, 2.1];
-var someUnknownThing = 'string';
-var someThingsArray = [4, 'some thing', true];
+let isDog = true;
+let dogAge = 5;
+let dogName = 'Doggy';
+let dogNames = ['Rulf', 'Buch'];
+let dogAges = [4, 6, 2.1];
+let someUnknownThing = 'string';
+let someThingsArray = [4, 'some thing', true];
 function doStuff() {
     console.log('doing stuff');
     return;
@@ -20,10 +20,10 @@ var ErrorCode;
     ErrorCode[ErrorCode["OUT_OF_MEMORY"] = 123] = "OUT_OF_MEMORY";
     ErrorCode[ErrorCode["WRONG_INPUT"] = 234] = "WRONG_INPUT";
 })(ErrorCode || (ErrorCode = {}));
-var error = ErrorCode.WRONG_INPUT;
+let error = ErrorCode.WRONG_INPUT;
 function getNameAndAge() {
     return ['Slava', 27];
 }
-var tuple = getNameAndAge();
-var firstItem = tuple[0];
-var secondItem = tuple[1];
+let tuple = getNameAndAge();
+let firstItem = tuple[0];
+let secondItem = tuple[1];

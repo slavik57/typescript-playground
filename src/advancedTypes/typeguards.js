@@ -10,22 +10,20 @@ function logError(error) {
         console.log(error.message);
     }
 }
-var Rectangle = (function () {
-    function Rectangle(topLeft, width, height) {
+class Rectangle {
+    constructor(topLeft, width, height) {
         this.topLeft = topLeft;
         this.width = width;
         this.height = height;
     }
-    return Rectangle;
-}());
+}
 exports.Rectangle = Rectangle;
-var Circle = (function () {
-    function Circle(center, radius) {
+class Circle {
+    constructor(center, radius) {
         this.center = center;
         this.radius = radius;
     }
-    return Circle;
-}());
+}
 exports.Circle = Circle;
 function getArea(geometry) {
     if (geometry instanceof Circle) {

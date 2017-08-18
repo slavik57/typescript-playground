@@ -2,8 +2,8 @@
 // https://youtu.be/t_VGUAGgJWw
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var dogModuleA_1 = require("./dogModuleA");
-var dogModuleB_1 = require("./dogModuleB");
+const dogModuleA_1 = require("./dogModuleA");
+const dogModuleB_1 = require("./dogModuleB");
 dogModuleA_1.logDogName();
 dogModuleB_1.logDogName();
 dogModuleA_1.changeDogName('Zeus');

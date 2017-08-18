@@ -8,12 +8,12 @@ function assertNever(o) {
 function tellAFact(animal) {
     switch (animal.kind) {
         case 'cat':
-            return "The cat has " + animal.numberOfLives + " lives left";
+            return `The cat has ${animal.numberOfLives} lives left`;
         case 'dog':
-            var isBarking = animal.isBarkingOnStrangers ? '' : 'not ';
-            return "The dog does " + isBarking + 'bark on strangers';
+            const isBarking = animal.isBarkingOnStrangers ? '' : 'not ';
+            return `The dog does ` + isBarking + 'bark on strangers';
         case 'cow':
-            return "The cow drinks " + animal.drinks;
+            return `The cow drinks ${animal.drinks}`;
         default:
             return assertNever(animal);
     }

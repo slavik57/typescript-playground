@@ -4,11 +4,11 @@ function getError(message, user) {
     return 'Error ' + message +
         ', requesting user:' + user;
 }
-var errorToLog = getError('someError', 'someUser');
+let errorToLog = getError('someError', 'someUser');
 console.log(errorToLog);
-var getErrorFunc = getError;
+let getErrorFunc = getError;
 console.log(getErrorFunc('1', '2'));
-var getErrorFunction = getError;
+let getErrorFunction = getError;
 console.log(getErrorFunction('message1', 'user1'));
 function getErrorOptionalUser(message, user) {
     if (user) {
@@ -21,19 +21,14 @@ function getErrorOptionalUser(message, user) {
 }
 console.log(getErrorOptionalUser('err1'));
 console.log(getErrorOptionalUser('err1', 'user2'));
-function getErrorDefaultUser(message, user) {
-    if (user === void 0) { user = 'unknown'; }
+function getErrorDefaultUser(message, user = 'unknown') {
     return 'Default error ' + message +
         ' user:' + user;
 }
 console.log(getErrorDefaultUser('err1'));
 console.log(getErrorDefaultUser('err1', 'user2'));
-function logErrors(error) {
-    var restErrors = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        restErrors[_i - 1] = arguments[_i];
-    }
-    var allErrors = [error].concat(restErrors);
+function logErrors(error, ...restErrors) {
+    let allErrors = [error, ...restErrors];
     console.log(allErrors.join('|'));
 }
 logErrors('error1');
@@ -48,12 +43,11 @@ function logPoint(param1, param2) {
     }
 }
 function logPointXY(x, y) {
-    console.log("[" + x + ", " + y + "]");
+    console.log(`[${x}, ${y}]`);
 }
 logPoint(1, 2);
 logPoint({ x: 3, y: 4 });
-function showMessageToUser(_a) {
-    var width = _a.width, height = _a.height;
+function showMessageToUser({ width, height }) {
     console.log(width * height);
 }
 showMessageToUser({

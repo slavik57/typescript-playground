@@ -2,11 +2,11 @@
 // https://youtu.be/0FvaxUzzA0g
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var exportingModule_1 = require("./exportingModule");
-var exportingModule = require("./exportingModule");
+const exportingModule_1 = require("./exportingModule");
+const exportingModule = require("./exportingModule");
 require("./moduleWithSideEffect");
-var defaultExportingModule_1 = require("./defaultExportingModule");
-var reExportingModule_1 = require("./reExportingModule");
+const defaultExportingModule_1 = require("./defaultExportingModule");
+const reExportingModule_1 = require("./reExportingModule");
 console.log('Renamed imported:', exportingModule_1.exportedVariable);
 defaultExportingModule_1.default();
 console.log('namespace:', exportingModule.exportedVariable);
